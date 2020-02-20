@@ -70,7 +70,7 @@ make -j`nproc` && make install
 
 # ------------编译shadowsocks-libev
 mkdir -p $SRC/shadowsocks-libev && cd $SRC/shadowsocks-libev
-ver=3.2.0
+ver=3.3.4
 git clone git://github.com/shadowsocks/shadowsocks-libev
 cd shadowsocks-libev
 git checkout v$ver -b v$ver
